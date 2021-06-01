@@ -1,0 +1,24 @@
+{
+  "name": "pimcore-snippets",
+  "displayName": "Pimcore Snippets",
+  "description": "Twig & PHP Snippets for Pimcore 10",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/php.code-snippets"
+      },
+      {
+        "language": "twig",
+        "path": "./snippets/twig.code-snippets"
+      }
+    ]
+  }
+}
