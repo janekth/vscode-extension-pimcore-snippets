@@ -2,7 +2,13 @@
   "name": "pimcore-snippets",
   "displayName": "Pimcore Snippets",
   "description": "Twig & PHP Snippets for Pimcore 10",
-  "version": "0.0.1",
+  "publisher": "janekth",
+  "version": "1.0.0",
+  "icon": "images/pimcore.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janekth/vscode-extension-pimcore-snippets.git"
+  },
   "engines": {
     "vscode": "^1.56.0"
   },
