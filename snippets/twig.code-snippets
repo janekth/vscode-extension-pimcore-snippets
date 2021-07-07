@@ -731,7 +731,7 @@
   "Image": {
     "prefix": "pim:image",
     "body": [
-      "{{ pimcore_image('${1:id}' }}$0",
+      "{{ pimcore_image('${1:id}') }}$0",
     ],
   },
   "Image Thumbnail": {
@@ -749,7 +749,7 @@
   "Input": {
     "prefix": "pim:input",
     "body": [
-      "{{ pimcore_input('${1:id}' }}$0",
+      "{{ pimcore_input('${1:id}') }}$0",
     ],
   },
   "Input Advanced": {
@@ -768,7 +768,7 @@
   "Link": {
     "prefix": "pim:link",
     "body": [
-      "{{ pimcore_link('${1:id}' }}$0",
+      "{{ pimcore_link('${1:id}') }}$0",
     ],
   },
   "Link Advanced": {
